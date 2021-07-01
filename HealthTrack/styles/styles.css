@@ -1,0 +1,55 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+.health {
+    font: italic bold 5vw/2 'Calibri Light', sans-serif;
+    color: rgb(237, 20, 91);
+}
+
+.profile {
+    max-width: 10%;
+}
+
+.initImg {
+    max-width: 50%;
+}
+
+.fontWeight {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darksalmon;
+    text-align: left;
+}
+
+.fontActivity {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: deepskyblue;
+    text-align: left;
+}
+
+.fontHealth {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:crimson;
+    text-align: left;
+}
+
+.align-left-text {
+	float: left;
+}
+
+.align-right-text {
+	float: right;
+}
+.align-center-text {
+	float: center;
+}
+
+a {
+    color: black;
+}
+
+.div-two-items {
+    clear: both;
+}
+.align-left-text-space {
+	float: left;
+	text-indent: 5em;
+}

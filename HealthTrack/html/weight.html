@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Health Track - Pesos</title>
+    
+    <link href="../styles/styles.css" rel="stylesheet" media="screen">
+    <link href="../styles/popup.css" rel="stylesheet" media="screen">
+    <script src="https://kit.fontawesome.com/5b856952a2.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body class="text-center">
+    <div class="container-sm">
+      <div class="row">
+        <div class="col mb-3 div-two-items">
+            <h1 class="align-left-text"><a href="index.html"><i class="fas fa-arrow-left"></i></a></h1>
+            <h1 class="align-center-text"> Lista de Pesos</h1>
+        </div>
+       </div>
+       <div class="row">
+         <div class ="col">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Data</th>
+                    <th scope="col">Peso</th>
+                    <th scope="col">Ações</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>10/12/2020</td>
+                    <td>75kg</td>
+                    <td>
+                        <i class="fas fa-edit"></i>
+                        <i class="far fa-trash-alt"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>25/02/2021</td>
+                    <td>85kg</td>
+                    <td>
+                        <i class="fas fa-edit"></i>
+                        <i class="far fa-trash-alt"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>23/04/2021</td>
+                    <td>93kg</td>
+                    <td>
+                        <i class="fas fa-edit"></i>
+                        <i class="far fa-trash-alt"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+         </div>
+        </div>
+        <h1 class="align-right-text"><a href="#popup1"><i class="fas fa-plus"></i></a></h1>
+       </div>
+    </div>
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <a class="close" href="#">&times;</a>
+          <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" width="100%" height="250vw" src="addWeight.html"></iframe>
+           <div class="container">
+              <div class="row">
+               <div class="align-right-text">
+                  <h1><a href="#"><i class="fas fa-sign-in-alt"></i></a></h1>  
+                </div> 
+              </div>
+            </div>
+      </div>
+    </div>
+  </body>
+</html>
